@@ -1,0 +1,3 @@
+com\destacame\defs\TotalPurchaseBelowTheLimitTest.class
+com\destacame\defs\TotalPurchaseOverTheLimitTest.class
+com\destacame\RunCucumberTest.class

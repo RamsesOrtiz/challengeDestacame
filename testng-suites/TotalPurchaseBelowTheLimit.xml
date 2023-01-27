@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Purchase Below The Limit">
+    <test verbose="2" preserve-order="true" name="TotalPurchaseBelowTheLimit">
+        <classes>
+            <class name="com.destacame.defs.TotalPurchaseBelowTheLimitTest">
+                <methods>
+                    <include name="a_user_visits_the_pcfactory_webpage"/>
+                    <include name="add_two_products_to_the_cart"/>
+                    <include name="goes_to_the_cart"/>
+                    <include name="the_total_of_purchase_is_below_the_limit"/>
+                    <include name="continue_with_the_purchase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
