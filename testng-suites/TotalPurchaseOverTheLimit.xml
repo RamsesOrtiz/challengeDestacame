@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Purchase Over The Limit">
+    <test verbose="2" preserve-order="true" name="TotalPurchaseOverTheLimit">
+        <classes>
+            <class name="com.destacame.defs.TotalPurchaseOverTheLimitTest">
+                <methods>
+                    <include name="a_user_visits_the_webpage"/>
+                    <include name="add_some_products_to_the_cart"/>
+                    <include name="visit_the_cart"/>
+                    <include name="the_total_of_purchase_is_over_the_limit"/>
+                    <include name="drop_a_product_and_continue_with_the_purchase"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

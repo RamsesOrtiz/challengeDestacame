@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-27T00:58:47 ART" name="Test Purchase Over The Limit" finished-at="2023-01-27T00:58:47 ART" duration-ms="47">
+    <groups>
+    </groups>
+    <test started-at="2023-01-27T00:58:47 ART" name="TotalPurchaseOverTheLimit" finished-at="2023-01-27T00:58:47 ART" duration-ms="47">
+    </test> <!-- TotalPurchaseOverTheLimit -->
+  </suite> <!-- Test Purchase Over The Limit -->
+  <suite started-at="2023-01-27T00:58:47 ART" name="Test Purchase Below The Limit" finished-at="2023-01-27T00:58:47 ART" duration-ms="1">
+    <groups>
+    </groups>
+    <test started-at="2023-01-27T00:58:47 ART" name="TotalPurchaseBelowTheLimit" finished-at="2023-01-27T00:58:47 ART" duration-ms="1">
+    </test> <!-- TotalPurchaseBelowTheLimit -->
+  </suite> <!-- Test Purchase Below The Limit -->
+  <suite started-at="2023-01-27T00:58:47 ART" name="Automation Web Challenge on pcfactory.cl" finished-at="2023-01-27T00:59:27 ART" duration-ms="39726">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.destacame.RunCucumberTest@5226e402]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-01-27T00:58:47 ART" name="Main Test" finished-at="2023-01-27T00:59:27 ART" duration-ms="39726">
+      <class name="com.destacame.RunCucumberTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.destacame.RunCucumberTest@5226e402]" started-at="2023-01-27T00:58:47 ART" name="setUpClass" finished-at="2023-01-27T00:58:49 ART" duration-ms="1623" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@9760f17]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.destacame.RunCucumberTest@5226e402]" started-at="2023-01-27T00:58:49 ART" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-27T00:59:11 ART" duration-ms="21941" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Total Purchase Below The Limit"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase Products with Total Amount Limit"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.destacame.RunCucumberTest@5226e402]" started-at="2023-01-27T00:59:11 ART" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-01-27T00:59:27 ART" duration-ms="15958" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Total Purchase Over The Limit"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchase Products with Total Amount Limit"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.destacame.RunCucumberTest@5226e402]" started-at="2023-01-27T00:59:27 ART" name="tearDownClass" finished-at="2023-01-27T00:59:27 ART" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.destacame.RunCucumberTest -->
+    </test> <!-- Main Test -->
+  </suite> <!-- Automation Web Challenge on pcfactory.cl -->
+</testng-results>

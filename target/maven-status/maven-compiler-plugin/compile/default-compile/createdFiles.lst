@@ -1,0 +1,5 @@
+com\destacame\config\LoggerPage.class
+com\destacame\config\ConfigPage.class
+com\destacame\process\AddProductsProcess.class
+com\destacame\process\PurchaseProcess.class
+com\destacame\config\PropertiesPage.class
